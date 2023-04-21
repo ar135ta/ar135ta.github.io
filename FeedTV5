@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>FEED TV 5</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <a style="position:	fixed;top:100px;width:100px;right:32rem;opacity:0.5;" href="">
+    <img style="height:85px;" src="https://i.postimg.cc/zGDVKJQ6/kadaltvku.png" alt="Made with KadalTV" />
+    </a>
+  
+<center>
+<!-- partial:index.partial.html -->
+<p>FEED 5</p>
+<div class="container">
+  <iframe
+    width="560"
+    height="315"
+    src="https://fordems.live/bz5.php"
+    title="Feed 5"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+  ></iframe>
+
+</div>
+
+</center>
+<!-- partial -->
+  
+</body>
+</html>
