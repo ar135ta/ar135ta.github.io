@@ -1,6 +1,6 @@
 /* 寫法一 */
 .container {
-  width: 70%;
+  width: 80%;
   aspect-ratio: 560 / 315;
   background-color: #5f9ea0;
 }
