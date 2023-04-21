@@ -1,6 +1,6 @@
 /* 寫法一 */
 .container {
-  width: 80%;
+  width: 84%;
   aspect-ratio: 560 / 315;
   background-color: #5f9ea0;
 }
@@ -13,7 +13,7 @@
 
 /* 寫法二 */
 .iframe-box {
-  width: 70%;
+  width: 84%;
   height: auto;
   aspect-ratio: 560 / 315;
   vertical-align: top;
