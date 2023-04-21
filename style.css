@@ -1,10 +1,20 @@
-body {
-height: 100%;
-background-image: url("https://mcdn.wallpapersafari.com/medium/95/79/54jQe8.jpg");
+/* 寫法一 */
+.container {
+  width: 70%;
+  aspect-ratio: 560 / 315;
+  background-color: #5f9ea0;
 }
-.center {
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%,-50%);
+
+.container iframe {
+  width: 100%;
+  height: 100%;
+  vertical-align: top;
+}
+
+/* 寫法二 */
+.iframe-box {
+  width: 70%;
+  height: auto;
+  aspect-ratio: 560 / 315;
+  vertical-align: top;
 }
