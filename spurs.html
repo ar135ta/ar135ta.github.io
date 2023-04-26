@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Title of the document</title>
+    <style>
+	[style*="--aspect-ratio"] > :first-child {
+  width: 100%;
+}
+[style*="--aspect-ratio"] > img {  
+  height: auto;
+} 
+@supports (--custom:property) {
+  [style*="--aspect-ratio"] {
+    position: relative;
+  }
+  [style*="--aspect-ratio"]::before {
+    content: "";
+    display: block;
+    padding-bottom: calc(100% / (var(--aspect-ratio)));
+  }  
+  [style*="--aspect-ratio"] > :first-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+  }  
+}
+    </style>
+  </head>
+  <body>
+
+<div style="--aspect-ratio: 16/9;">
+
+<p><center><iframe src="https://embedstream.me/arsenal-stream-2" width="100%" height="530" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay;" allowtransparency="true" id="thatframe"> </iframe></center></p>
+
+<!iframe frameborder=0 height=85% width=85% src="https://wikisport.click/strm/27.php" allowfullscreen scrolling=no allowtransparency></iframe>
+  <!iframe frameborder=0 height=100% width=100% src="https://weakstream.org/streams/badiffke" allowfullscreen scrolling=no allowtransparency></iframe>
+  
+</div>
+
+  </body>
+  
+</html>
+
+
