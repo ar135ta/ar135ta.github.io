@@ -8,7 +8,7 @@
 header {
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.15)),
+  background-image: linear-gradient(rgba(117, 115, 115, 0.3), rgba(0, 0, 0, 0.15)),
     url("../images/16888.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -167,3 +167,18 @@ section .btnfive {
   }
 
 }
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.562) ;
+  color: rgb(5, 5, 5);
+  text-align: center;
+  padding: 15px;
+  
+}
+
+
+
